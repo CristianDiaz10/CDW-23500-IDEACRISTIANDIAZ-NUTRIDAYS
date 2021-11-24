@@ -6,12 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriDays</title>
     <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow+Condensed:wght@100&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-    <header class="headermenu">
-            <figure></figure>
-            <div>
-                <ul class="headermenulista">
+    <header class="headermenu_flex">
+            <div class="headermenu_flex--hijo1">
+                <img src="./Recursos/Logo/Nutridays.jfif" alt="Logo_Nutridays">
+            </div>
+            <div class="headermenu_flex--hijo2">
+                <ul class="lista">
                     <li><strong><a href="Pages/nosotros.html">Nosotros</a></strong></li>
                     <li><strong><a href="Pages/registro.html">Registro</a></strong></li>
                     <li><strong><a href="Pages/nutricion.html">Nutrición</a></strong></li>
@@ -30,103 +40,129 @@
         <div class="forma__cubo--verde"></div>
         <div class="forma__cubo"></div>  /*Extra*/ -->
         <hr>
-    <section class="containermain">
-    <div class="containermain item1containermain">
-            <h1 id="Ir_a_Inicio"></h1>Bienvenidos a NutriDays</h1>
+        <h1 id="Ir_a_Inicio" style="color: black;background-color: #2FBE14;">Bienvenidos a NutriDays</h1>
+    <section class="containermain_flex1">
+        <div class="containermain_flex--hijo1">
+            <br>
             <h1>Nosotros</h1>
+            <br>
             <a href="#mas_nosotros">Ir a más de nosotros</a>
             <br>
-            <img src="./Recursos/Nosotros/1.jfif" alt="">
             <h2 id="mas_nosotros" style="color: blue;"Nosotros 2></h2>
-            <h3>Nosostros 2</h3>
-            <h3>Nosostros 3</h3>
-            <h4>Nosostros 4</h4>
-            <h5>Nosostros 5</h5>
-            <h6>Nosostros 6</h6>
-    </div>
+            <br>
+            <h6>En Quaker®, creemos que un pequeño cambio, 
+                puede hacer una gran diferencia para tener una vida más saludable. 
+                Por eso llevamos 140 años trabajando para darte opciones más 
+                ricas y nutritivas que te ayudarán a ser un mejor tú de adentro hacia afuera.</h6>
+            <br>
+            </div>
+            <div class="containermain_flex--hijo2">
+                <img class="img2" src="./Recursos/Nosotros/1.jfif" alt="">
+            </div>
+        </section>
         <hr>
-        <div class="containermain item2containermain">
-        <h1>Registro</h1>
-        <a href="#mas_registro">Ir a más de Registros</a>
-        <br>
-        <img src="./Recursos/Registro/registro.jfif" alt="">
-        <h2 id="mas_registro" style="color: blue;"Registro 2></h2>
-        <h3>Registro 2</h3>
-        <h4>Registro 3</h4>
-        <h5>Registro 4</h5>
-        <h6>Registro 5</h6>
-        <h6>Registro 6</h6>
-        </div>
+        <section class="containermain_flex2">
+            <div class="containermain_flex2--hijo1">
+                <img class="img3" src="./Recursos/Registro/registro.jfif" alt="">
+            </div>
+            <div class="containermain_flex2--hijo2">
+            <br>
+            <h1>Registro</h1>
+            <br>
+            <a href="#mas_registro">Ir a más de Registros</a>
+            <br>
+            <h2 id="mas_registro" style="color: blue;"Registro 2></h2>
+            <h6>¿Quieres registrar tu marca ante el Instituto Mexicano de la Propiedad Industrial (IMPI)?
+            ¿Quieres proteger los derechos sobre tu marca? El registro te da el derecho 
+            al uso exclusivo en el territorio nacional por 10 años, ya que distingue 
+            tus productos o servicios de otros existentes en el mercado, 
+            además te puede ayudar a iniciar acciones legales por posible 
+            mal uso de tu marca y te facilita el otorgar licencias de uso o franquicias.
+            </h6>
+            <br>
+            </div>
+        </section>
             <hr>
-            <div class="containermain item3containermain">
+        <section class="containermain_flex3">
+            <div class="containermain_flex3--hijo1">
             <h1>Nutrición</h1>
             <a href="#mas_nutricion">Ir a más de Nutricion</a>
             <br>
-            <img src="./Recursos/Nuricion/Nutricion1.png" alt="">
             <h2 id="mas_nutricion" style="color: blue;"Nutrición 2></h2>
-            <h3>Nutrición 2</h3>
-            <h4>Nutrición 3</h4>
-            <h5>Nutrición 4</h5>
-            <h6>Nutrición 5</h6>
-            <h6>Nutrición 6</h6>
+            <h6>La pandemia del coronavirus (COVID-19) ha cambiado muchas de nuestras rutinas diarias, 
+                incluida la forma en que comemos. Quizás se ha abastecido de alimentos empacados 
+                y está cocinando en casa más de lo habitual. A medida que nos adaptamos, 
+                tal vez debería pensar en formas en que usted y su familia puedan comer 
+                de manera más saludable.</h6>
             </div>
+            <div class="img4" class="containermain_flex3--hijo2">
+                <img src="./Recursos/Nutricion/NutriInicio.jpg" alt="">
+            </div>
+        </section>
                 <hr>
+        <section class="containermain_flex4">
+            <div class="containermain_flex4--hijo1">
+                <img class="img5" src="./Recursos/Progreso/1.gif" alt="">
+            </div class="ontainermain_flex4--hijo2">
                 <div class="containermain item4containermain">
                 <h1>Progreso</h1>
                 <a href="#mas_progreso">Ir a más de tu Progreso</a>
                 <br>
-                <img src="./Recursos/Progreso/1.gif" alt="">
                 <h2 id="mas_progreso" style="color: blue;"Progreso 2></h2>
-                <h3>Progreso 2</h3>
-                <h4>Progreso 3</h4>
-                <h5>Progreso 4</h5>
-                <h6>Progreso 5</h6>
-                <h6>Progreso 6</h6>
+                <h6>Tener una bitácora de entrenamiento te muestra lo que realmente hiciste, 
+                    no lo que tu memoria cree que hiciste. Así podrás superar lo que lograste 
+                    en el entrenamiento pasado (al sacar una repetición más, 
+                    al hacer otra serie o al levantar un poco más de peso).</h6>
                 </div>
+        </section>
                     <hr>
-                    <div class="containermain item5containermain">
+        <section class="containermain_flex5">
+                    <div class="containermain_flex5--hijo1">
                     <h1>Contáctanos</h1>
                     <a href="#mas_contactanos">Ir a más de Contáctanos</a>
                     <br>
-                    <img src="./Recursos/Contactanos/contactanos.jfif" alt="">
                     <h2 id="mas_contactanos" style="color: blue;"Contáctanos 2></h2>
-                    <h3>Contáctanos 2</h3>
-                    <h4>Contáctanos 3</h4>
-                    <h5>Contáctanos 4</h5>
-                    <h6>Contáctanos 5</h6>
-                    <h6>Contáctanos 6</h6>
+                    <h6>Hola ¿en qué te podemos ayudar?
+                        Búsqueda de Productos, Descargas, 
+                        Preguntas Frecuentes, Guías y Tutoriales</h6>
+                    </div>
+                    <div class="containermain_flex5--hijo2">
+                        <img class="img6" src="./Recursos/Contactanos/contactanos.jfif" alt="">
                     </div>
         </section>    
     </main>
 
     <footer>
         <hr>
-        <div class="footer">
-        <button><a href="#Ir_a_Inicio"><strong>Ir a Inicio</strong></a></button>
+        <section class="boton_inicio">
+            <button><a class="btn_inicio" href="#Ir_a_Inicio"><strong>Ir a Inicio</strong></a></button>
+        </section>
         <hr>
-        <p>Siguenos en </p>
-        <ul>
+        <div class="footer_flex">
+        <div class="footer_flex--hijo1">
+        <p>Siguenos en:</p>
+        </div>
+        <div class="footer_flex--hijo2">
+        <ul class="lista_footer">
             <li>
-               <h4><a href="https://www.facebook.com/"><strong> @nutridays.com </strong></a><span><img src="Recursos/Footer/facebook.png" alt=""></span>
-               </h4>
+                <h6><a href="https://www.facebook.com/"><strong> @nutridays.com </strong></a><img src="Recursos/Footer/facebook.png" alt=""></h6>
             </li>
             <br>
             <li>
-                <h4><a href="https://twitter.com/"><strong> @nutridays.com </strong></a><span><img src="Recursos/Footer/twitter.png" alt=""></span>
-                </h4>
+                <h6><a href="https://twitter.com/"><strong> @nutridays.com </strong></a><img src="Recursos/Footer/twitter.png" alt=""></h6>
                 </li>
             <br>
             <li>
-                <h4><a href="https://www.instagram.com/"><strong> @nutridays.com </strong></a><span><img src="Recursos/Footer/instagram.png" alt=""></span>
-                </h4>
+                <h6><a href="https://www.instagram.com/"><strong> @nutridays.com </strong></a><img src="Recursos/Footer/instagram.png" alt=""></h6>
                 </li>
             <br>
             <li>
-                <h4><a href="https://www.whatsapp.com/"><strong> +55 56566969 </strong></a><span><img src="Recursos/Footer/whatsapp.png" alt=""></span>
-                </h4>
+                <h6><a href="https://www.whatsapp.com/"><strong> +55-56566969 </strong></a><img src="Recursos/Footer/whatsapp.png" alt=""></h6>
                 </li>
             <br>
+                <h6>Copyright © 2020-2030 NutriDays de México S.A de C.V. Términos y condiciones. Cuidamos tu privacidad</h6>
         </ul>
+        </div>
         </div>
     </footer>
 </body>
