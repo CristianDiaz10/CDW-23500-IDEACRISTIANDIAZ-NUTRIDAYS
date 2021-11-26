@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+/* Zona Header/Nav */
 .headermenu_flex{
     display: flex;
     flex-wrap: nowrap;
@@ -38,6 +40,8 @@
     color: white;
 }
 
+/* Fuentes h1.h2.etc */
+
 h1{
     font-family: 'PT Serif', serif;
     font-size: 40px;
@@ -59,6 +63,8 @@ h6{
     padding: 15px;
 
 }
+
+/* Fuentes IMG */
 
 img{
     display: block;
@@ -104,6 +110,8 @@ img{
     max-height: 225px;
 }
 
+/* Zona Nosotros */
+
 .containermain_flex1{
     display: flex;
     flex-wrap: nowrap;
@@ -124,6 +132,8 @@ img{
 
 }
 
+/* Zona Registro */
+
 .containermain_flex2{
     display: flex;
     flex-wrap: nowrap;
@@ -143,6 +153,8 @@ img{
 .containermain_flex2--hijo1{
 
 }
+
+/* Zona Nutricion */
 
 .containermain_flex3{
     display: flex;
@@ -165,6 +177,8 @@ img{
 
 }
 
+/* Zona Progreso */
+
 .containermain_flex4{
     display: flex;
     flex-wrap: nowrap;
@@ -184,6 +198,9 @@ img{
 .containermain_flex4--hijo1{
 
 }
+
+
+/* Zona Contactanos */
 
 .containermain_flex5{
     display: flex;
@@ -206,6 +223,8 @@ img{
 
 }
 
+/* Zona Footer */
+
 .footer_flex{
     height: 70px;
     display: flex;
@@ -226,6 +245,8 @@ img{
 .footer_flex--hijo2{
 
 }
+
+/* Zona Links */
 
 .lista_footer{
     list-style: none;
@@ -249,12 +270,18 @@ img{
     max-height: 30px;
 }
 
+/* Parrafos */
+
 p{
     font-family: 'Abril Fatface', cursive;
 }
 
+/* Boton Ir a Inicio */
+
 .boton_inicio{
     text-align: center;
+    justify-content: center;
+    align-content: center;
     background-color: #2FBE14;
 }
 .btn_inicio{
@@ -265,4 +292,10 @@ p{
     border-radius: 3px;
     text-decoration: none;
     border-style: solid;
+}
+
+/* Links a */
+
+a{
+    margin-left: 15px;
 }
