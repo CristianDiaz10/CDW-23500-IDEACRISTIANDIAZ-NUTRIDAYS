@@ -5,20 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriDays</title>
+        <!-- Referencias-Fuentes-Librerias -->
+        <link rel="stylesheet" href="../CSSIndex/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow+Condensed:wght@100&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1><strong> NutriDays </strong></h1>
-            <ul class="menu">
+    <header class="headermenu_flex"> <!-- Zona Header/Nav -->
+        <div class="headermenu_flex--hijo1">
+            <img src="../Recursos/Logo/Nutridays.jfif" alt="Logo_Nutridays">
+        </div>
+        <div class="headermenu_flex--hijo2">
+            <ul class="lista">
                 <li><strong><a href="../index.html">Inicio</a></strong></li>
                 <li><strong><a href="registro.html">Registro</a></strong></li>
                 <li><strong><a href="nosotros.html">Nosotros</a></strong></li>
                 <li><strong><a href="nutricion.html">Nutrición</a></strong></li>
                 <li><strong><a href="contactanos.html">Contáctanos</a></strong></li>
             </ul>
-            </nav>
-        </header>
+        </div>
+    </header>
 
     <main>
         <hr>
@@ -35,29 +47,36 @@
 
     <footer>
         <hr>
-        <p>Siguenos en </p>
-        <ul class="footer">
+        <section class="boton_inicio"> <!-- Zona Footer -->
+            <a class="btn_inicio" href="#Ir_a_Inicio"><strong>Ir a Inicio</strong></a>
+        </section>
+        <hr>
+        <div class="footer_flex">
+        <div class="footer_flex--hijo1">
+        <p>Siguenos en:</p>
+        </div>
+        <div class="footer_flex--hijo2"> <!-- Zona Links -->
+        <ul class="lista_footer">
             <li>
-               <h4><a href="https://www.facebook.com/"><strong> Facebook/Meta</strong></a><span><img src="../Recursos/Footer/facebook.png" alt=""></span>
-               </h4>
+                <h6><a href="https://www.facebook.com/"><strong> @nutridays.com </strong></a><img src="../Recursos/Footer/facebook.png" alt=""></h6>
             </li>
             <br>
             <li>
-                <h4><a href="https://twitter.com/"><strong> Twitter</strong></a><span><img src="../Recursos/Footer/twitter.png" alt=""></span>
-                </h4>
+                <h6><a href="https://twitter.com/"><strong> @nutridays.com </strong></a><img src="../Recursos/Footer/twitter.png" alt=""></h6>
                 </li>
             <br>
             <li>
-                <h4><a href="https://www.instagram.com/"><strong> Instagram</strong></a><span><img src="../Recursos/Footer/instagram.png" alt=""></span>
-                </h4>
+                <h6><a href="https://www.instagram.com/"><strong> @nutridays.com </strong></a><img src="../Recursos/Footer/instagram.png" alt=""></h6>
                 </li>
             <br>
             <li>
-                <h4><a href="https://www.whatsapp.com/"><strong> WatsApp</strong></a><span><img src="../Recursos/Footer/whatsapp.png" alt=""></span>
-                </h4>
+                <h6><a href="https://www.whatsapp.com/"><strong> +55-56566969 </strong></a><img src="../Recursos/Footer/whatsapp.png" alt=""></h6>
                 </li>
             <br>
-        </ul>         
+                <h6>Copyright © 2020-2030 NutriDays de México S.A de C.V. Términos y condiciones. Cuidamos tu privacidad</h6>
+        </ul>
+        </div>
+        </div>
     </footer>
 
 </body>
