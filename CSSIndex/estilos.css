@@ -312,11 +312,89 @@ p{
     justify-content: center;
 }
 
+/* Grid Progreso */
+
+#grid_progreso{
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 20px 20px 20px 20px;
+}
+
+#grid_progreso div{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Grid Registro */
+
+.imagen9{
+    text-align: center;
+
+}
+
+#grid_registro{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 20px 20px 20px;
+}
+
+#grid_registro div{
+    background-color: white;
+    text-align: center;
+    justify-items: center;    
+}
+
+.formulario_genero div{
+    padding-top: 45px;
+}
+
+.formulario_condiciones div{
+    padding-top: 75px;
+}
 
 
+/* Grid Conatctanos */
 
 
+#grid_contactanos{
+    display: grid;
+    padding: 20px 20px 20px 20px;
+    grid-template-areas:
+        "datos coments submit";
+    grid-template-columns: auto auto auto;
+}
 
+#grid_contactanos div{
+    background-color: white;
+    text-align: center;  
+    align-self: stretch; 
+}
+
+.contactanos{
+    grid-area: datos;
+    align-self: stretch;
+}
+
+.comentarios{
+    grid-area: coments;
+    align-self: stretch;
+}
+
+.enviar_datos{
+    grid-area: submit;
+    align-self: stretch;
+}
+
+a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.tips_contactanos{
+    padding: 10px 20px 5px 20px;
+}
 /* Links a */
 /* Gradientes grid_nutricion */
 

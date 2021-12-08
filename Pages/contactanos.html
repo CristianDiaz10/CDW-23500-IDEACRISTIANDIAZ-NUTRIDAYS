@@ -35,42 +35,80 @@
     <main>
         <hr>
             <h1>Contáctanos</h1>
-            <form action="">
-                <h3>Contáctame</h3>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="Nombre de contacto" placeholder="Agrega tu nombre">
-                <br>
-                <br>
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="Apellido de contacto" placeholder="Agrega tu apellido">
-                <br>
-                <br>
-                <label for="telefono">Teléfono:</label>
-                <input type="number" name="Teléfono de contacto" placeholder="Agrega tu telefono">
-                <br>
-                <br>
-                <label for="correo">Correo:</label>
-                <input type="email" name="correo" placeholder="Agrega tu e-mail">
-                <br>
-                <br>
-            <fieldset>
-                <legend>Escribe tus comentarios</legend>
-                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-            </fieldset>
-            <br>
-            <br>
-            </form>
-            <form action="">
-                <input type="submit" value="Enviar"> <!--/*Falta popup afirmando que se mando*/-->
-                <input type="reset" value="Borrar"> <!--/*Falta popup afirmando que se borro*/-->
-            </form>
+            <h3 style="padding-left: 12px;">Contáctame</h3>
+            <div id="grid_contactanos">
+                <div class="contactanos">
+                    <form action="">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="Nombre de contacto" placeholder="Agrega tu nombre">
+                        <br>
+                        <br>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" name="Apellido de contacto" placeholder="Agrega tu apellido">
+                        <br>
+                        <br>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="number" name="Teléfono de contacto" placeholder="Agrega tu telefono">
+                        <br>
+                        <br>
+                        <label for="correo">Correo:</label>
+                        <input type="email" name="correo" placeholder="Agrega tu e-mail">
+                        <br>
+                        <br>
+                    </form>
+                </div>
+                <div class="comentarios">
+                    <fieldset>
+                        <legend>Escribe tus comentarios</legend>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                    </fieldset>
+                </div>
+                <div class="enviar_datos">
+                    <form action="">
+                        <div>
+                            <br>
+                            <br>
+                            <input type="submit" value="Enviar"> <!--/*Falta popup afirmando que se mando*/-->
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <input type="reset" value="Borrar"> <!--/*Falta popup afirmando que se borro*/-->
+                        </div>
+                        </form>
+                </div> 
+            </div>
+            <div class="tips_contactanos">
+                <h4>
+                    Si tienes preguntas sobre el parque o necesitas ayuda con algo, estamos aquí 
+                    para atenderte. Puedes comunicarte con nosotros por teléfono o correo electrónico. 
+                    Esperamos con interés escuchar de ti.
+                    <br>
+                    <br>
+                    Chatea con nosotros
+                    Tenemos miembros del equipo asistiendo desde las 9 AM hasta las 7 PM, 
+                    todos los días. 
+                    <br>
+                    <br>
+                    Envíanos una Nota
+                    Si tienen una pregunta o comentario más detallado o nuestra espera de chat 
+                    es demasiado larga, no dudes en enviarnos un correo a 
+                    sugerenciasycomentariosmx@nutridays.com. Por lo general, 
+                    nos comunicaremos en unas pocas horas (hasta 24 horas).
+                    <br>
+                    <br>
+                    Llámanos
+                    Si prefieres hablar con alguien de nuestro equipo, envíanos una 
+                    nota junto con tu número de teléfono, el mejor momento para comunicarnos 
+                    contigo, los detalles de tu situación
+                    <br>
+                    <br>
+                    Llama al 55-5656-6969
+                </h4>
+            </div> 
     </main>
 
     <footer>
-        <hr>
-        <section class="boton_inicio"> <!-- Zona Footer -->
-            <a class="btn_inicio" href="#Ir_a_Inicio"><strong>Ir a Inicio</strong></a>
-        </section>
         <hr>
         <div class="footer_flex">
         <div class="footer_flex--hijo1">
