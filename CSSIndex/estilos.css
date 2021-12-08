@@ -17,9 +17,6 @@
 
 }
 
-.headermenu_flex--hijo1{
-
-}
 
 .headermenu_flex--hijo2{
     margin-right: 20px;
@@ -67,7 +64,7 @@ h6{
 /* Fuentes IMG */
 
 img{
-    display: block;
+
     height: auto;
     width: 300px;
     max-width: 300px;
@@ -150,9 +147,6 @@ img{
 
 }
 
-.containermain_flex2--hijo1{
-
-}
 
 /* Zona Nutricion */
 
@@ -167,10 +161,6 @@ img{
     border-style: solid;
 }
 
-.containermain_flex3--hijo1{
-
-
-}
 
 .containermain_flex3--hijo2{
     margin-right: 20px;
@@ -195,9 +185,6 @@ img{
 
 }
 
-.containermain_flex4--hijo1{
-
-}
 
 
 /* Zona Contactanos */
@@ -292,10 +279,88 @@ p{
     border-radius: 3px;
     text-decoration: none;
     border-style: solid;
+    justify-content: center;
 }
+
+/* Grid Nosotros */
+
+#grid_nosotros{
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 20px 20px 20px 20px;
+}
+
+#grid_nosotros div{
+    background-color: white;
+    text-align: center;
+}
+
+
+
+
+/* Grid Nutricion */
+
+#grid_nutricion{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    padding: 20px 20px 20px 20px;
+}
+
+#grid_nutricion div{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
 
 /* Links a */
+/* Gradientes grid_nutricion */
 
-a{
+/*a{
     margin-left: 15px;
+    Gradientes
+    background-image: linear-gradient(left, yellow, green);
+    background-attachment: fixed;
+    Transformaciones
+    transform: rotateY(90deg);
+    Transformaciones
+    transform: scale(2,1);
+    transform: skewY(90deg);
+
+    .corazon{
+        width: 32px;
+        height: 32px;
+        background-color: tomato;
+        transform: translate(-50%,-50%) rotate(45deg);
+    }
+    .corazon:before{
+        content: "";
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: tomato ;
+        transform: translateY(-50%);
+        border-radius: 50%;
+    }
+    .corazon:after{
+        content: "";
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: tomato ;
+        transform: translateX(-50%);
+        border-radius: 50%;
+    }
+
 }
+*/
+
+
