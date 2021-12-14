@@ -60,6 +60,41 @@ h6{
     padding: 15px;
 
 }
+ #animacion{
+    animation-name: movimiento-izq-der;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+    animation-direction: alternate;/*para que vuelva a su posicion inicial */
+    width: auto;
+    position: relative;
+    padding: 2px;
+ }
+@keyframes movimiento-izq-der{
+    from {
+       left: 0px;
+    }
+    to {
+       left: 200px;
+    }
+ }
+
+ #animacion2{
+    animation-name: movimiento-der-izq;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+    animation-direction: alternate;/*para que vuelva a su posicion inicial */
+    width: auto;
+    position: relative;
+    padding: 2px;
+ }
+ @keyframes movimiento-der-izq{
+    from {
+       right: 0px;
+    }
+    to {
+       right: 200px;
+    }
+ }
 
 /* Fuentes IMG */
 
@@ -233,7 +268,7 @@ img{
 
 }
 
-/* Zona Links */
+/* Zona Links  Footer */
 
 .lista_footer{
     list-style: none;
@@ -281,6 +316,20 @@ p{
     border-style: solid;
     justify-content: center;
 }
+
+.btn_inicio:hover {
+    position: relative;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    -webkit-transition-property: background-color, color;
+    -webkit-transition-duration: 1s;
+    -o-transition-property: background-color, color;
+    -o-transition-duration: 1s;
+    background-color:white;
+    color:black;
+    -moz-box-shadow: 2px 2px 1px black;
+  }
 
 /* Grid Nosotros */
 
@@ -354,7 +403,7 @@ p{
 }
 
 
-/* Grid Conatctanos */
+/* Grid Contactanos */
 
 
 #grid_contactanos{
@@ -396,6 +445,20 @@ a{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.zoom{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+    transform:scale(1.2);
+}     
+.zoom:hover{
+    transform: scale(1.5); 
+    }
+
+
+
 
 
 .tips_contactanos{
