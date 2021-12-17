@@ -1,0 +1,59 @@
+import Layout from '../../lib/components/Layout';
+export default Layout;
+
+# Getting Started
+
+Floating UI is a low-level library for positioning "floating"
+elements like tooltips, popovers, dropdowns, menus and more.
+Since these types of elements float on top of the UI without
+disrupting the flow of content, challenges arise when positioning
+them.
+
+Floating UI exposes primitives which enable a floating element to
+be positioned next to a given reference element while appearing
+in view for the user as best as possible. Features include
+overflow prevention (or collision awareness), placement flipping,
+and more.
+
+- **Tiny**: 600-byte core with highly modular architecture for
+  tree-shaking
+- **Low-level**: Hyper-granular control over positioning behavior
+- **Pure**: Predictable, side-effect free behavior
+- **Extensible**: Powerful middleware system
+- **Platform-agnostic**: Runs on any JavaScript environment which
+  provides measurement APIs, including the web and
+  [React Native](/docs/react-native)
+
+```shell
+npm install @floating-ui/dom
+```
+
+```shell
+yarn add @floating-ui/dom
+```
+
+## CDN
+
+Floating UI can be loaded via CDN using ESM or UMD format.
+
+### ESM
+
+```html
+<script type="module">
+  import * as FloatingUIDOM from 'https://cdn.skypack.dev/@floating-ui/dom@__DOM_VERSION__';
+</script>
+```
+
+### UMD
+
+```html
+<script src="https://unpkg.com/@floating-ui/core@__CORE_VERSION__"></script>
+<script src="https://unpkg.com/@floating-ui/dom@__DOM_VERSION__"></script>
+```
+
+All exports will be available on `window.FloatingUIDOM{:js}`.
+
+## Tutorial
+
+Get up and running with a real practical example by creating a
+[tooltip](/docs/tutorial).

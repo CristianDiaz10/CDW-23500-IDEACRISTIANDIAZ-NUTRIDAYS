@@ -1,0 +1,40 @@
+import Layout from '../../lib/components/Layout';
+export default Layout;
+
+# Misc
+
+## Subpixel and accelerated positioning
+
+Instead of `top{:.objectKey}` and `left{:.objectKey}` as shown
+throughout the docs, you can use `transform: translate(){:sass}`
+instead to position the floating element for increased
+performance.
+
+```js
+Object.assign(floatingEl.style, {
+  top: '0',
+  left: '0',
+  transform: `translate(${Math.round(x)}px,${Math.round(y)}px)`,
+});
+```
+
+`x` and `y` can contain decimals, so unless the
+`transform{:.objectKey}` translation is placed evenly on the
+device's subpixel grid, then there will be blurring. You can
+check `window.devicePixelRatio{:js}` to round by DPR.
+
+### 3D transforms
+
+You can also promote the floating element to its own layer:
+
+<!-- prettier-ignore -->
+```js
+Object.assign(floatingEl.style, {
+  top: '0',
+  left: '0',
+  transform: `translate3d(${Math.round(x)}px,${Math.round(y)}px,0)`,
+});
+```
+
+If you're animating the location of the floating element, using
+`transform{:.objectKey}` will offer smoother animations.
