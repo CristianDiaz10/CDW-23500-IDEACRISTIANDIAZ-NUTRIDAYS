@@ -58,6 +58,7 @@ h6{
     font-family: 'Architects Daughter', cursive;
     margin: auto;
     padding: 15px;
+    padding-top: 25px;
 
 }
  #animacion{
@@ -264,9 +265,6 @@ img{
     margin: 20px 20px 20px 20px;
 }
 
-.footer_flex--hijo2{
-
-}
 
 /* Zona Links  Footer */
 
@@ -442,6 +440,7 @@ p{
 }
 
 a{
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
